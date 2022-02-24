@@ -11,7 +11,7 @@ namespace ConsoleAppCalculator
             Console.WriteLine("and then the operator ( +, -, *, or /),");
             Console.WriteLine("and then the second number.");
             double n1 = double.Parse(Console.ReadLine());
-            string s = Console.ReadLine();
+           string s = Console.ReadLine();
             double n2 = double.Parse(Console.ReadLine());
             p.Calculate(n1, n2, s);
 
