@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EratoMethod", "EratoMethod.csproj", "{AA05C28D-89E0-4D10-86C3-3E35AF2CA7FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA05C28D-89E0-4D10-86C3-3E35AF2CA7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA05C28D-89E0-4D10-86C3-3E35AF2CA7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA05C28D-89E0-4D10-86C3-3E35AF2CA7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA05C28D-89E0-4D10-86C3-3E35AF2CA7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E53E6D4-3A1B-432F-92B8-CEE035C9F04E}
+	EndGlobalSection
+EndGlobal
