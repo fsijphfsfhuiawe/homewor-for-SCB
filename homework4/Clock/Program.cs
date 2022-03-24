@@ -16,6 +16,10 @@
  * 声明同学的“关闹钟”或“起床方法”
  */
 
+
+//写的有点繁琐
+
+
 using System;
 using System.Threading;
 
@@ -29,6 +33,8 @@ namespace Clock
     }
     //事件约束条件
     public delegate void RingEventHandler(Clock c, RingEventArgs e);
+
+    //可以直接使用自带的委托action，省的定义
 
 
 
@@ -57,6 +63,8 @@ namespace Clock
                 Console.WriteLine("Clock Time: {0} o'clock", TimeNow);
 
                 //时钟嘀嗒的方法
+                //闹钟嘀嗒的事件可以由闹钟自己处理
+                //一般情况下这种处理会被作为事件发生者的默认处理，避免没有订阅者而事件发生
                 if (TimeNow == 12)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
